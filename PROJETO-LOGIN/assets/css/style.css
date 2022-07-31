@@ -1,0 +1,215 @@
+*{
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x:hidden ;
+}
+
+body{
+  background-color: #000000;
+}
+
+form{
+  margin-top: 15px;
+}
+
+#login{
+  padding: 20px;
+  background-color: #FFF;
+  width: 450px ;
+  margin: auto;
+  border-radius:20px;
+}
+
+#border{
+  background-color: transparent;
+  border: #000000 ;
+  border-radius: 10px;
+  border-style: double;
+  background-color: #f0f8ffd6;
+}
+
+
+legend{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 2px 2px 3px #615f5f ;
+}
+
+div.user{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 2px #3f3f3f;
+}
+
+div.senha{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 2px #3f3f3f;
+}
+
+div.button{
+  text-align: center;
+}
+
+div.cadastro{
+  text-align: center;
+}
+
+input[type=password]{
+  background-color: transparent;
+  text-align: center;
+  padding-top: 30px;
+  border-bottom:2px solid #000000;
+  outline: none;
+}
+
+input[type=text]{
+  background-color: transparent;
+  text-align: center;
+  padding-top: 30px;
+  border-bottom:2px solid #000000;
+  outline: none;
+}
+
+input[type=submit]{
+  background-color: #000000;
+  color: #FFF;
+  border: 1px solid #000000;
+  padding:5px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+input[type=reset]{
+  background-color: #000000;
+  color: #FFF;
+  border: 1px solid #000000;
+  padding:5px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+a{
+  border-bottom:2px solid #000000;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+a:hover{
+text-shadow:1px 1px 2px #3f3f3f;
+transition: 0.5s;
+}
+
+input[type=submit]:hover{
+  box-shadow: 1px 2px 2px #1a1919;
+}
+
+input[type=reset]:hover{
+  box-shadow: 1px 2px 2px  #1a1919;
+}
+
+input[placeholder]{
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+
+
+
+@media(max-width:600px) {
+  legend{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 2px 2px 3px #615f5f ;
+  }
+  #login{
+   width: 300px;
+  }
+  div.user{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px #3f3f3f;
+    font-size: 1.9vw;
+    font-weight: bold;
+  }
+  
+  div.senha{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px #3f3f3f;
+    font-size: 1.9vw;
+    font-weight: bold;
+  }
+
+  input[type=password]{
+    background-color: transparent;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom:3px solid #000000;
+    outline: none;
+
+  }
+  
+  input[type=text]{
+    background-color: transparent;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom:3px solid #000000;
+    outline: none;
+  }
+
+  input[type=submit]{
+    background-color: #000000;
+    color: #FFF;
+    border: 1px solid #000000;
+    padding:5px;
+    border-radius: 5px;
+    height: 28px;
+    width: 90px;
+    font-size: 2.5vw;
+  }
+  
+  input[type=reset]{
+    background-color: #000000;
+    color: #FFF;
+    border: 1px solid #000000;
+    padding:5px;
+    border-radius: 5px;
+    height: 28px;
+    width: 90px;
+    font-size: 2.5vw;
+  }
+
+  input[placeholder]{
+    font-size: 2vw;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  a{
+    border-bottom:2px solid #000000;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 2vw;
+  }
+}
+
+
+
+
+
+
+
+
+

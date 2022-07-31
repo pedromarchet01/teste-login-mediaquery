@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+ <form action="cadastro.php" method="post" autocomplete="off">
+
+  <div id="login">
+    <div id="border">
+      <fieldset>
+        <p>
+          <legend>ACESSO DO USUÁRIO</legend>
+          <br>
+          <div class="user">
+            <label for="iuser">USUÁRIO</label>
+            <br>
+            <input type="text" name="user" id="iuser" required maxlength="50" min="0" size="20" placeholder="Nome de Usuário">
+          </div>
+        </p>
+        <p>
+          <div class="senha">
+            <label for="isenha">SENHA</label>
+            <br>
+            <input type="password" name="senha" id="isenha" required maxlength="50" minlength="0" placeholder="Senha">
+          </div>
+        </p>
+        <p>
+          <div class="button">
+            <input type="submit" value="Entrar">
+            <br>
+            <br>
+            <input type="reset" value="Limpar">
+          </div>
+        </p>
+        <div class="cadastro">
+          <p>
+            <small><a href="cadastro.html">Não tem uma conta ? <br>
+            cadastre-se aqui</a></small>
+          </p>
+        </div>
+      </fieldset>
+    </div>
+     </form>
+  </div>
+
+  <script src="js/loginscript.js"></script>
+</body>
+</html>
